@@ -1,0 +1,22 @@
+# Ignore everything in root by default
+/*
+
+# --- Keep project files ---
+!.gitignore
+!README.md
+!dags/
+!sql/
+!scripts/
+
+# --- Within project folders, ignore caches ---
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/.DS_Store
+
+# --- Never commit these ---
+gcp_credentials.json
+*.json
+airflow/
+venv/
+logs/
