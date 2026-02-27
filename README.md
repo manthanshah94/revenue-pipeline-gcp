@@ -86,4 +86,4 @@ generate_report()
 ```
 
 ## Part of my #BuildingInPublic series
-Building in public — one Data Engineering or AI/ML concept per week.
+Building in public — one Data Engineering or AI/ML concept every few days.
